@@ -51,7 +51,7 @@ class PokeFetch extends Component {
             this.fetchPokemon();
             this.countdown()
           }}>Start!</button>
-          <h1 className={'timer'} >{counter}</h1>
+          <h1 className={'timer'} >Play again!{counter}</h1>
           <div className={'pokeWrap'}>
             <img className={'pokeImg'} src={this.state.pokeSprite} />
             <h1 style={{ color: 'black' }} className={'pokeName'}>{this.state.pokeName}</h1>
@@ -65,7 +65,7 @@ class PokeFetch extends Component {
             this.fetchPokemon();
             this.countdown()
           }}>Start!</button>
-          <h1 className={'timer'} Guess that>Guess that pokemon!<br />{counter}s</h1>
+          <h1 className={'timer'}>Guess that pokemon?<br />{counter}s</h1>
           <div className={'pokeWrap'}>
             <img style={{ filter: 'contrast(1%)' }} className={'pokeImg'} src={this.state.pokeSprite} />
             <h1 style={{ color: 'transparent' }} className={'pokeName'}>{this.state.pokeName}</h1>
